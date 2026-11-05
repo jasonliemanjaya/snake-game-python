@@ -10,4 +10,6 @@
    Arrow keys to move. Eat food to grow; don't hit the walls or yourself.
 
    ## Screenshot
-   ![Gameplay]<img width="451" height="471" alt="image" src="https://github.com/user-attachments/assets/f9cd4bdd-c10d-487b-b10d-7a9d2e94389c" />
+   ![Gameplay]
+   
+   <img width="451" height="471" alt="image" src="https://github.com/user-attachments/assets/f9cd4bdd-c10d-487b-b10d-7a9d2e94389c" />
