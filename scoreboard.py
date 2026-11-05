@@ -7,8 +7,11 @@ class Scoreboard(Turtle):
         self.count = 0
         self.penup()
         self.pencolor("white")
-        with open("data.txt") as file:
-            self.highscore = int(file.read())
+        try:
+            with open("data.txt") as file:
+                self.highscore = int(file.read())
+        except (FileNotFoundError, ValueError):
+            self.highscore = 0
         self.goto(x=0, y=260)
         self.update_scoreboard()
         self.hideturtle()
